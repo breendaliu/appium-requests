@@ -1,0 +1,9 @@
+{
+  "teacter_appium.py::TestXueqiu::test_shell": true,
+  "test1.py::TestXueqiu::test_webview_gmkh": true,
+  "test_xueqiu.py": true,
+  "test_xueqiu.py::TestXueqiu::test_s": true,
+  "test_xueqiu.py::TestXueqiu::test_search_and_get_device": true,
+  "test_xueqiu.py::TestXueqiu::test_toast": true,
+  "test_xueqiu.py::TestXueqiu::test_webview_gmkh": true
+}

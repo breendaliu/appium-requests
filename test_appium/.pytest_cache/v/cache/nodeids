@@ -1,0 +1,17 @@
+[
+  "test_xueqiu.py::TestXueqiu::test_search",
+  "test_xueqiu.py::TestXueqiu::test_search_and_get_device",
+  "test_xueqiu.py::TestXueqiu::test_search_and_get_price",
+  "test_xueqiu.py::TestXueqiu::test_scroll",
+  "test_xueqiu.py::TestXueqiu::test_search_and_get_shares",
+  "test_xueqiu.py::TestXueqiu::test_search_and_get_price_from_hk",
+  "test_xueqiu.py::TestXueqiu::test_toast",
+  "test_apidemo.py::TestApidemo::test_view",
+  "test_xueqiu.py::TestXueqiu::test_source",
+  "test_xueqiu.py::TestXueqiu::test_s",
+  "test_xueqiu.py::TestXueqiu::test_webview_context",
+  "test_xueqiu.py::TestXueqiu::test_webview_gmkh",
+  "teacter_appium.py::TestXueqiu::test_webview_context",
+  "test1.py::TestXueqiu::test_webview_gmkh",
+  "teacter_appium.py::TestXueqiu::test_shell"
+]
