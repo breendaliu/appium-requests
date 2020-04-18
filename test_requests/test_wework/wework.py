@@ -1,0 +1,31 @@
+# token放在更全局的变量中
+
+import requests
+
+
+class WeWork:
+    test_url="https://qyapi.weixin.qq.com/cgi-bin/gettoken"
+    corpid="wwe99718602b3a2e7c"
+    # 每个接口token不一样，所以需要定义成一个词典
+    token=dict()
+
+    @classmethod
+    def get_token(cls, secret):
+        # 如果密钥secret不在token值中，则重新获取。如果存在，则直接返回。避免重复请求，提高速度
+        if secret not in cls.token.keys():
+            r = cls.get_access_token(secret)
+            # r.json是返回json体，取出json对象，取出json下的一个字段
+            # assert r["errcode"] == 0
+            # 存储token到变量token中
+            cls.token[secret] = r["access_token"]
+        return cls.token[secret]
+
+    @classmethod
+    def get_access_token(cls, secret):
+        r = requests.get(
+            cls.test_url,
+            params={"corpid":cls.corpid, "corpsecret": secret}
+        )
+        print(r.json())
+        assert r.json()["errcode"] == 0
+        return r.json()
