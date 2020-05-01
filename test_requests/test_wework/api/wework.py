@@ -7,10 +7,10 @@ from test_requests.test_wework.api.baseapi import BaseApi
 
 
 class WeWork(BaseApi):
-    test_url="https://qyapi.weixin.qq.com/cgi-bin/gettoken"
-    corpid="wwe99718602b3a2e7c"
+    test_url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken"
+    corpid = "wwe99718602b3a2e7c"
     # 每个接口token不一样，所以需要定义成一个词典
-    token=dict()
+    token = dict()
     secret = "TzYDZdObJKUvRm1WiI8c6Znk3rYEGYRPHw400nvELgg"
 
     @classmethod
@@ -30,9 +30,8 @@ class WeWork(BaseApi):
     def get_access_token(cls, secret):
         r = requests.get(
             cls.test_url,
-            params={"corpid":cls.corpid, "corpsecret": secret}
+            params={"corpid": cls.corpid, "corpsecret": secret}
         )
         cls.format(r)
         assert r.json()["errcode"] == 0
         return r.json()
-

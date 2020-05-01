@@ -11,7 +11,7 @@ class GroupChat(WeWork):
     # 应用管理test的secret, def test_get_token使用
     # secret="K4FB34TpHj7sFPTnnL0KF6n13r-V6eRGKNbGVOXhiio"
     # 客户联系->客户的secret，def test_groupchat_detail使用
-    secret="TzYDZdObJKUvRm1WiI8c6Znk3rYEGYRPHw400nvELgg"
+    secret = "TzYDZdObJKUvRm1WiI8c6Znk3rYEGYRPHw400nvELgg"
 
     def list(self, offset=1, limit=10, **kwargs):
         # **kwargs代表可传入其他参数
