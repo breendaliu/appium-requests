@@ -1,0 +1,12 @@
+[
+  "test_wework.py::TestWeWork::test_get_token",
+  "test_wework.py::TestWeWork::test_get_token_exist",
+  "test_wework.py::TestWeWork::test_groupchat_detail",
+  "test_wework.py::TestWeWork::test_groupchat_get",
+  "test_wework.py::TestWeWork::test_groupchat_get_status",
+  "testcase/test_groupchat.py::TestWeWork::test_groupchat_get",
+  "testcase/test_groupchat.py::TestWeWork::test_groupchat_get_status",
+  "testcase/test_groupchat.py::TestWeWork::test_groupchat_detail",
+  "testcase/test_wework.py::TestWeWork::test_get_token",
+  "testcase/test_wework.py::TestWeWork::test_get_token_exist"
+]
