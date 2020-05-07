@@ -1,0 +1,8 @@
+[
+  "test_department.py::TestDeparement::test_token",
+  "test_department.py::TestDeparement::test_create",
+  "test_department.py::TestDeparement::test_uodate",
+  "test_department.py::TestDeparement::test_update",
+  "test_department.py::TestDeparement::test_delete",
+  "test_department.py::TestDeparement::test_get"
+]
